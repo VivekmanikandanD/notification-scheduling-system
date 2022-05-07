@@ -1,0 +1,18 @@
+<div class="container-fluid d-flex justify-content-center">
+    <div class="card px-2 notification-container">
+      <span>Days to hardblock note: {{diffDays}}</span>
+      <div class="row px-3">
+            <div class="col">
+                <ul id="progressbar" *ngFor="let notification of allNotifications$ | async">
+                    <ng-container *ngFor="let item of notification.notifications,let i=index">
+                        <li class="step0 active " id="step1" [attr.data-after-content]="item.interval">
+                            <span>{{item.label}}</span>
+                            <span>{{item.date}}</span>
+                        </li>
+                    </ng-container>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

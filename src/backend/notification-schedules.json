@@ -1,0 +1,20 @@
+{
+    "notifications":[
+    {
+    "companyId": "aad7a630-af1c-4952-9cb4-44b8b847853b",
+    "notifications": [
+        {"date":"02/01/2021",
+        "label":"Introduction","interval":"4 d."},
+        {"date":"06/01/2021",
+        "label":"Alert","interval":"5 d."},
+        {"date":"11/01/2021",
+        "label":"Reminder","interval":"5 d."},
+        {"date":"16/01/2021",
+        "label":"Warning","interval":"5 d."},
+        {"date":"21/01/2021",
+        "label":"Hardblock note"}
+       ]
+    }
+]
+    
+}
